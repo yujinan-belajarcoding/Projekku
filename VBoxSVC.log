@@ -1,0 +1,78 @@
+00:00:00.001958 main     VirtualBox COM Server 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:00.001960 main     Log opened 2025-02-13T05:41:14.868336200Z
+00:00:00.001961 main     Build Type: release
+00:00:00.001965 main     OS Product: Windows 11
+00:00:00.001966 main     OS Release: 10.0.22631
+00:00:00.001966 main     OS Service Pack: 
+00:00:00.017070 main     DMI Product Name: HP All-in-One Desktop 27-cb1xxx
+00:00:00.025164 main     DMI Product Version:  
+00:00:00.025174 main     Firmware type: UEFI
+00:00:00.025623 main     Secure Boot: Enabled
+00:00:00.025635 main     Host RAM: 16068MB (15.6GB) total, 7912MB (7.7GB) available
+00:00:00.025640 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.025640 main     Process ID: 33840
+00:00:00.025641 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.025643 main     Windows Features:
+00:00:00.025644 main       Core Isolation (Memory Integrity): ENABLED
+00:00:00.073374          VirtualBox: object creation starts
+00:00:00.073544          Home directory: 'C:\Users\vokas\.VirtualBox'
+00:00:00.073629          Installed Drivers:
+00:00:00.075003            C:\windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.1.4.15100)
+00:00:00.075382            C:\windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.1.4.15100)
+00:00:00.075630            C:\windows\system32\DRIVERS\VBoxSup.sys (Version: 7.1.4.15100)
+00:00:00.076236            C:\windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.1.4.15100)
+00:00:00.085030          Loading settings file "C:\Users\vokas\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.086850          usbLibGetDevices: Starting USB device enumeration
+00:00:00.111273          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&9559dd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.111940          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&9559dd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:00.113094          usbLibGetDevices: Found 5 USB devices, 0 captured
+00:00:00.113127          USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x5431)
+00:00:00.115584          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xb00c)
+00:00:00.143142          HostDnsMonitor: initializing
+00:00:00.150106          HostDnsMonitor: updating information
+00:00:00.150123          HostDnsMonitor: old information
+00:00:00.150124            no server entries
+00:00:00.150124            no domain set
+00:00:00.150125            no search string entries
+00:00:00.150125          HostDnsMonitor: new information
+00:00:00.150125            server 1: 175.45.184.73
+00:00:00.150126            server 2: 175.45.184.165
+00:00:00.150126            server 3: 10.41.80.1
+00:00:00.150126            domain: ub.ac.id
+00:00:00.150127            no search string entries
+00:00:00.151600          VD: VDInit finished with VINF_SUCCESS
+00:00:00.152426          Platform architecture set to 'x86'
+00:00:00.153182          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\vokas\OneDrive\Documents\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64-1.16.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.153191          D:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[984] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:00.153766          VirtualBox: object created
+00:00:00.242628          Saving settings file "C:\Users\vokas\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.245899          Finished saving settings file "C:\Users\vokas\.VirtualBox\VirtualBox.xml"
+00:00:00.246036          Saving settings file "C:\Users\vokas\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.249379          Finished saving settings file "C:\Users\vokas\.VirtualBox\VirtualBox.xml"
+00:00:00.249606          Saving settings file "C:\Users\vokas\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.254023          Finished saving settings file "C:\Users\vokas\.VirtualBox\VirtualBox.xml"
+00:00:00.614826          Platform architecture set to 'x86'
+00:00:00.615053          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\vokas\OneDrive\Documents\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64-1.16.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.615056          D:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[984] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:00.615400          Platform architecture set to 'x86'
+00:00:00.615559          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\vokas\OneDrive\Documents\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64-1.16.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.615562          D:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[984] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:00:00.615981          Platform architecture set to 'x86'
+00:00:00.616120          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening 'C:\Users\vokas\OneDrive\Documents\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64\kali-linux-2024.3-virtualbox-amd64-1.16.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.616122          D:\tinderbox\win-rel\src\VBox\Main\src-server\MachineImpl.cpp[984] (long __cdecl Machine::i_registeredInit(void))}, preserve=false aResultDetail=0
+00:02:21.293826 dns-monitor HostDnsMonitor: updating information
+00:02:21.293859 dns-monitor HostDnsMonitor: unchanged
+00:06:07.935856 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:06:07.960353 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&9559dd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:06:07.961033 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&9559dd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:06:07.961201 USBPROXY usbLibGetDevices: Found 5 USB devices, 0 captured
+00:07:31.359584 dns-monitor HostDnsMonitor: updating information
+00:07:31.359605 dns-monitor HostDnsMonitor: unchanged
+00:10:52.016873 main     WM_QUERYENDSESSION: shutdown (0x00000000)
+00:10:52.016901 main     VBoxSvc has active connections: bActivity = false, lock count = 2
+00:10:52.689918 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:10:52.728250 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&9559dd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:10:52.728349 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&9559dd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:10:52.728423 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&9559dd2&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:10:52.728622 USBPROXY usbLibGetDevices: Found 5 USB devices, 0 captured
+00:10:53.606969 main     VirtualBox: object deletion starts
